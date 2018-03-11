@@ -1,0 +1,14 @@
+const nan = +('a'/2);
+console.log('nan: ', nan);
+console.log('isFinite', Number.isFinite(nan));
+console.log('isNan', Number.isNaN(nan));
+console.log('isSafeInteger', Number.isSafeInteger(nan));
+const num = 4.55;
+console.log('num: ', num);
+console.log('isFinite', Number.isFinite(num));
+console.log('isNan', Number.isNaN(num));
+console.log('isSafeInteger', Number.isSafeInteger(num));
+const string = num.toString();
+console.log('parseInt', Number.parseInt(string  + '.52'));
+console.log('parseFloat', Number.parseFloat(string  + '.52'));
+console.log('toExponental', num.toExponential());

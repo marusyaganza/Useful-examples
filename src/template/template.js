@@ -1,0 +1,1 @@
+document.write('<h2> My first template</h2>');
